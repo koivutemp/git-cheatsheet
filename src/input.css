@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .p-comment{
+    @apply text-green-700 font-chakra leading-3 font-light pl-4 pr-4;
+    }
+    .p-code{
+    @apply text-white font-chakra leading-4 pb-4 pl-4 pr-4;
+    }
+}
